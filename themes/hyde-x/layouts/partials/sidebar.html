@@ -5,7 +5,7 @@
         <img src="https://www.gravatar.com/avatar/{{ .Site.Params.gravatarHash }}?s=200"
              alt="gravatar" title="{{ .Site.Author.name }}">
       {{ end }}
-      <h1>{{ .Site.Author.name }}</h1>
+      <a href="{{ "/" | absURL }}"><h1>{{ .Site.Author.name }}</h1></a>
       <code>{{ with .Site.Params.tagline }}{{ . | markdownify }}{{ end }}</code>
     </div>
 
