@@ -95,16 +95,16 @@ clear exponential curve.
 In Go, the "power tools" are the [unsafe](https://golang.org/pkg/unsafe/) and [reflect](https://gola
 ng.org/pkg/reflect/) packages and CGo, which provides integration with C.
 
-From this output, you can see that out of
+From this output, you can see that out of roughly 50 thousand files, very few use any of the three:
 
-scott@devbox:/tmp/ghgo$ wc -l *_by_*
-    7 cgo_by_org
-    7 cgo_by_repo
-  323 reflect_by_org
-  413 reflect_by_repo
-  165 unsafe_by_org
-  195 unsafe_by_repo
- 1110 total
+    scott@devbox:/tmp/ghgo$ wc -l *_by_*
+        7 cgo_by_org
+        7 cgo_by_repo
+      323 reflect_by_org
+      413 reflect_by_repo
+      165 unsafe_by_org
+      195 unsafe_by_repo
+     1110 total
 
 ### Unsafe
 
@@ -295,9 +295,9 @@ for file in $(cat file_list); do egrep -H '^(import ( _)?)?\s*"unsafe"$' "$file"
 cat res_unsafe | cut -d'/' -f2 | sort | uniq -c | sort -rn > unsafe_by_org
 cat res_unsafe | cut -d'/' -f2-3 | sort | uniq -c | sort -rn > unsafe_by_repo
 
-echo "Top org usage of unsafe:"
+echo; echo "Top org usage of unsafe:"
 head unsafe_by_org
-echo "Top repo usage of unsafe:"
+echo; echo "Top repo usage of unsafe:"
 head unsafe_by_repo
 
 # Look for import statements with "reflect" in them
@@ -306,9 +306,9 @@ for file in $(cat file_list); do egrep -H '^(import ( _)?)?\s*"reflect"$' "$file
 cat res_reflect | cut -d'/' -f2 | sort | uniq -c | sort -rn > reflect_by_org
 cat res_reflect | cut -d'/' -f2-3 | sort | uniq -c | sort -rn > reflect_by_repo
 
-echo "Top org usage of reflect:"
+echo; echo "Top org usage of reflect:"
 head reflect_by_org
-echo "Top repo usage of reflect:"
+echo; echo "Top repo usage of reflect:"
 head reflect_by_repo
 
 # Look for //#cgo
@@ -318,9 +318,9 @@ for file in $(cat file_list); do egrep -H '//#cgo' "$file" >> res_cgo; done
 cat res_cgo | cut -d':' -f1 | sort | uniq | cut -d'/' -f2 | sort | uniq -c | sort -rn > cgo_by_org
 cat res_cgo | cut -d':' -f1 | sort | uniq | cut -d'/' -f2-3 | sort | uniq -c | sort -rn > cgo_by_repo
 
-echo "Top org usage of CGo:"
+echo; echo "Top org usage of CGo:"
 head cgo_by_org
-echo "Top repo usage of CGo:"
+echo; echo "Top repo usage of CGo:"
 head cgo_by_repo
 
 ```
