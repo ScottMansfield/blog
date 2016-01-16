@@ -10,7 +10,7 @@ paginate = 10
     name = "Scott Mansfield"
 
 [permalinks]
-    post = "/:year/:month/:title/"
+    post = "/:year/:month/:slug/"
 
 [taxonomies]
     category = "categories"
@@ -23,7 +23,7 @@ paginate = 10
     # Otherwise show description and 'read on' link to individual blog post page.
     # Default (if omitted) is true.
     truncate = true
-    
+
     # Changes sidebar background and link/accent colours.
     # See below for more colour options.
     # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
