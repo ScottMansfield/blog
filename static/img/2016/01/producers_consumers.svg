@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="557px" height="698px" viewBox="0 0 557 698" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>producers consumers</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Producers" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)">
+            <rect id="Rectangle-3" stroke="#979797" sketch:type="MSShapeGroup" x="0" y="0" width="554" height="174"></rect>
+            <g id="Producer" transform="translate(49.000000, 41.000000)">
+                <rect id="Rectangle-1" stroke="#375EAB" fill="#E0EBF5" sketch:type="MSShapeGroup" x="0" y="0" width="100" height="100" rx="5"></rect>
+                <text id="P" sketch:type="MSTextLayer" font-family="Helvetica" font-size="48" font-weight="normal" fill="#000000">
+                    <tspan x="35" y="67">P</tspan>
+                </text>
+            </g>
+            <g id="Producer" transform="translate(404.000000, 42.000000)">
+                <rect id="Rectangle-1" stroke="#375EAB" fill="#E0EBF5" sketch:type="MSShapeGroup" x="0" y="0" width="100" height="100" rx="5"></rect>
+                <text id="P" sketch:type="MSTextLayer" font-family="Helvetica" font-size="48" font-weight="normal" fill="#000000">
+                    <tspan x="35" y="67">P</tspan>
+                </text>
+            </g>
+            <circle id="Oval-1" stroke="#375EAB" fill="#E0EBF5" sketch:type="MSShapeGroup" cx="211.5" cy="91.5" r="7.5"></circle>
+            <circle id="Oval-1" stroke="#375EAB" fill="#E0EBF5" sketch:type="MSShapeGroup" cx="276.5" cy="91.5" r="7.5"></circle>
+            <circle id="Oval-1" stroke="#375EAB" fill="#E0EBF5" sketch:type="MSShapeGroup" cx="341.5" cy="91.5" r="7.5"></circle>
+            <text sketch:type="MSTextLayer" font-family="Helvetica" font-size="44" font-weight="normal" fill="#000000">
+                <tspan x="177" y="53">Producers</tspan>
+            </text>
+        </g>
+        <g id="Consumers" sketch:type="MSLayerGroup" transform="translate(2.000000, 523.000000)">
+            <rect id="Rectangle-3" stroke="#979797" sketch:type="MSShapeGroup" x="0" y="0" width="554" height="174"></rect>
+            <g id="Producer" transform="translate(49.000000, 41.000000)">
+                <rect id="Rectangle-1" stroke="#375EAB" fill="#E0EBF5" sketch:type="MSShapeGroup" x="0" y="0" width="100" height="100" rx="5"></rect>
+                <text id="C" sketch:type="MSTextLayer" font-family="Helvetica" font-size="48" font-weight="normal" fill="#000000">
+                    <tspan x="32" y="63">C</tspan>
+                </text>
+            </g>
+            <g id="Producer" transform="translate(404.000000, 42.000000)">
+                <rect id="Rectangle-1" stroke="#375EAB" fill="#E0EBF5" sketch:type="MSShapeGroup" x="0" y="0" width="100" height="100" rx="5"></rect>
+                <text id="C" sketch:type="MSTextLayer" font-family="Helvetica" font-size="48" font-weight="normal" fill="#000000">
+                    <tspan x="32" y="63">C</tspan>
+                </text>
+            </g>
+            <ellipse id="Oval-1" stroke="#375EAB" fill="#E0EBF5" sketch:type="MSShapeGroup" cx="211.5" cy="91.5" rx="7.5" ry="7.5"></ellipse>
+            <ellipse id="Oval-1" stroke="#375EAB" fill="#E0EBF5" sketch:type="MSShapeGroup" cx="276.5" cy="91.5" rx="7.5" ry="7.5"></ellipse>
+            <ellipse id="Oval-1" stroke="#375EAB" fill="#E0EBF5" sketch:type="MSShapeGroup" cx="341.5" cy="91.5" rx="7.5" ry="7.5"></ellipse>
+            <text sketch:type="MSTextLayer" font-family="Helvetica" font-size="44" font-weight="normal" fill="#000000">
+                <tspan x="165" y="53">Consumers</tspan>
+            </text>
+        </g>
+        <g id="Oval-7-+-Oval-7" sketch:type="MSLayerGroup" transform="translate(228.000000, 274.000000)" stroke="#375EAB">
+            <path d="M100,131.775701 C100,141.840703 77.6142375,150 50,150 C22.3857625,150 0,141.840703 0,131.775701 L0,18.2242991 L100,18.2242991 L100,131.775701 Z" id="Oval-7" fill="#E0EBF5" sketch:type="MSShapeGroup"></path>
+            <path d="M50,36.4485981 C77.6142375,36.4485981 100,28.2893015 100,18.2242991 C100,8.15929662 77.6142375,0 50,0 C22.3857625,0 0,8.15929662 0,18.2242991 C0,28.2893015 22.3857625,36.4485981 50,36.4485981 Z" id="Oval-7" fill="#90ACC5" sketch:type="MSShapeGroup"></path>
+        </g>
+        <path d="M284,210 L284,269 L274,269 L274,210 L264,210 L278.5,180 L293,210 L284,210 Z" id="Rectangle-8" stroke="#375EAB" fill="#E0EBF5" sketch:type="MSShapeGroup" transform="translate(278.500000, 224.500000) scale(1, -1) translate(-278.500000, -224.500000) "></path>
+        <path d="M284,459 L284,518 L274,518 L274,459 L264,459 L278.5,429 L293,459 L284,459 Z" id="Rectangle-8" stroke="#375EAB" fill="#E0EBF5" sketch:type="MSShapeGroup" transform="translate(278.500000, 473.500000) scale(1, -1) translate(-278.500000, -473.500000) "></path>
+        <path d="M198.486174,450.06458 L198.486174,520.815124 L188.486174,520.815124 L188.486174,450.06458 L178.486174,450.06458 L192.986174,414.089728 L207.486174,450.06458 L198.486174,450.06458 Z" id="Rectangle-8" stroke="#375EAB" fill="#E0EBF5" sketch:type="MSShapeGroup" transform="translate(192.986174, 467.452426) scale(-1, -1) rotate(-315.000000) translate(-192.986174, -467.452426) "></path>
+        <path d="M368.952426,449.598329 L368.952426,520.348873 L358.952426,520.348873 L358.952426,449.598329 L348.952426,449.598329 L363.452426,413.623476 L377.952426,449.598329 L368.952426,449.598329 Z" id="Rectangle-8" stroke="#375EAB" fill="#E0EBF5" sketch:type="MSShapeGroup" transform="translate(363.452426, 466.986174) scale(1, -1) rotate(-315.000000) translate(-363.452426, -466.986174) "></path>
+        <path d="M198.486174,208.598329 L198.486174,279.348873 L188.486174,279.348873 L188.486174,208.598329 L178.486174,208.598329 L192.986174,172.623476 L207.486174,208.598329 L198.486174,208.598329 Z" id="Rectangle-8" stroke="#375EAB" fill="#E0EBF5" sketch:type="MSShapeGroup" transform="translate(192.986174, 225.986174) scale(1, -1) rotate(-315.000000) translate(-192.986174, -225.986174) "></path>
+        <path d="M369.513826,210.598329 L369.513826,281.348873 L359.513826,281.348873 L359.513826,210.598329 L349.513826,210.598329 L364.013826,174.623476 L378.513826,210.598329 L369.513826,210.598329 Z" id="Rectangle-8" stroke="#375EAB" fill="#E0EBF5" sketch:type="MSShapeGroup" transform="translate(364.013826, 227.986174) scale(-1, -1) rotate(-315.000000) translate(-364.013826, -227.986174) "></path>
+    </g>
+</svg>
