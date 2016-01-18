@@ -254,3 +254,22 @@ syscall. Even when the request itself is small, the cost of switching into the k
 I hope that these couple articles have demystified the `math/rand` and `crypto/rand` packages for
 you. If you have any questions, please leave a comment. I'd be happy to hear if it helped.
 
+## Bonus Section: Which Should You Use?
+
+The first version of this article was missing an important point, which is why there are two
+different random number sources in the first place in Go. The key difference is in the suitability
+of the output of each.
+
+`math/rand` is good if you need some random numbers to be used for testing or to ensure that a part
+of the program behaves differently each time. For example, the popular [go-fuzz](https://github.com/
+dvyukov/go-fuzz) package uses `math/rand` to generate randomness for fuzz testing. Most use cases
+can be satisfied by using `math/rand`.
+
+`crypto/rand` is a different beast entirely. The data returned is guaranteed to be cryptographically
+secure, and is usable for security purposes such as generating nonces or encryption keys. The speed
+of the call is relevant but is a cost of securely generated numbers, and should not be bypassed for
+speed reasons. Please don't ever use `math/rand` for something that needs to be secure.
+
+Thanks to Tim Kagle in the Gophers slack and [dchapes](https://www.reddit.com/user/dchapes) over on
+reddit for calling me out for omitting this discussion.
+
