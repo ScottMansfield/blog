@@ -2,7 +2,7 @@
 title = "Managing Syscall Overhead with crypto/rand"
 slug = "managing-syscall-overhead-with-crypto-rand"
 date = "2016-06-10T00:12:35-07:00"
-categories = ["Go"]
+categories = ["Go", "Performance"]
 keywords = ["Go", "golang", "crypto", "rand", "crypto/rand"]
 +++
 
