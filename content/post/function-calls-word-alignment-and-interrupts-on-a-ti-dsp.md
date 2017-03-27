@@ -76,7 +76,7 @@ representation of this would be the same as above.
 The solution that I decided to use was to pass everything through a 32 bit register on its way to
 the stack. I would place a 16 bit dummy value side by side with a 16 bit value to be pushed on the
 stack and use one push instruction. The DSP may need to actually make two trips to memory, but at
-least it is guaranteed to not b interrupted between writing both words. This solution would
+least it is guaranteed to not be interrupted between writing both words. This solution would
 graphically look the same as the solution above. After fixing this, the program proceeded to run
 just fine, even with interrupts.
 
