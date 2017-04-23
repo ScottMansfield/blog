@@ -1,4 +1,4 @@
-baseurl = "http://blog.sgmansfield.com/"
+baseurl = "//blog.sgmansfield.com/"
 title = "Scott Mansfield"
 languageCode = "en-us"
 disqusShortname = "sgmansfield"
@@ -58,4 +58,3 @@ paginate = 10
 
     # Other social-like sidebar links
     rss = true  # switch to true to enable RSS icon link
-    #flattr = ""  # populate with your flattr uid
