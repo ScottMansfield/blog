@@ -116,7 +116,7 @@ TEXT ·getBucketASM(SB)
 
 `TEXT` means that the following is meant for the text section of the binary (runnable code). Next
 comes the middot `·` then the name of the function. Immediately after the name the extra `(SB)` is
-required. This means "stack base" and is an artifact of the Plan9 assembly format. The real reason,
+required. This means "static base" and is an artifact of the Plan9 assembly format. The real reason,
 from the [Plan9 ASM documentation](http://plan9.bell-labs.com/sys/doc/asm.html), is that functions
 and static data are located at offsets relative to the beginning of the start address of the
 program.
