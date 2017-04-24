@@ -48,7 +48,8 @@ do some research to solve.
 ## Go version
 
 This is the entire Go version of the code below for reference. This is the original code that I am
-working off of throughout this process.
+working off of throughout this process. In this code, lzcnt is another assembly function stolen from
+Rend that just returns the number of leading zeros of a uint64.
 
 ```go
 const numBuckets = 276
@@ -430,6 +431,9 @@ If you would like to peruse the files that made up this work in their entirety, 
 * [bucket_test.go](/files/2017/04/bucket_test.go)
 * [bucket_test_asm.go](/files/2017/04/bucket_test_asm.go)
 * [bucket_test_amd64.s](/files/2017/04/bucket_test_amd64.s)
+* [lzcnt.go](/files/2017/04/lzcnt.go)
+* [lzcnt_asm.go](/files/2017/04/lzcnt_asm.go)
+* [lzcnt_amd64.s](/files/2017/04/lzcnt_amd64.s)
 
 You can also see them at the [GitHub repository for this blog](https://github.com/ScottMansfield/blog).
 
